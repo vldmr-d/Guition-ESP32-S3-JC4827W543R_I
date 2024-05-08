@@ -1,11 +1,12 @@
 #include <lvgl.h>
 #include <Arduino_GFX_Library.h>
-#include <demos/lv_demos.h>
-#include <demos/widgets/lv_demo_widgets.h>
 
-#if LV_BUILD_EXAMPLES &&  LV_USE_DEMO_BENCHMARK && LV_USE_DEMO_WIDGETS
+//#if LV_BUILD_EXAMPLES &&  LV_USE_DEMO_BENCHMARK && LV_USE_DEMO_WIDGETS
 
-#endif
+//#include <demos/lv_demos.h>
+//#include <demos/widgets/lv_demo_widgets.h>
+
+//#endif
 
 //#define GFX_BL DF_GFX_BL // default backlight pin, you may replace DF_GFX_BL to actual backlight pin
 #define GFX_BL 1
